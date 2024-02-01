@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+MonBucketS3:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      ImageId: 'ami-0277155c3f0ab2930'
+      InstanceType: 't2.micro'
+      BucketName: "bucket-mt4"
+Outputs: {}
